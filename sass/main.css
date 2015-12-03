@@ -9,10 +9,11 @@ header {
   display: inline-block;
   margin: 0;
   margin-right: 1.125em;
-  margin-left: .5em;
   font-size: 100%;
   white-space: nowrap;
-  padding: 10px; }
+  padding: 10px;
+  position: relative;
+  left: 50px; }
   .site-logo img {
     height: 45px;
     padding: 2.5px; }
@@ -20,7 +21,8 @@ header {
     .site-logo {
       width: 100%;
       text-align: center;
-      margin-left: 0px; } }
+      margin-left: 0px;
+      position: static; } }
 
 .primary-menu {
   width: 78%;
@@ -111,12 +113,11 @@ header {
 
 .footer-wrapper {
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  background: #0A497F;
   position: relative;
   z-index: 1;
-  background-color: #2e3133;
+  background-color: #dededd;
   padding-top: .4em;
-  color: #a5a5a5;
+  color: #333;
   border-top: 1px solid #fff;
   padding-bottom: 2em; }
   .footer-wrapper img {
@@ -155,16 +156,16 @@ header {
 .footer-title {
   margin: 1em 10px .5em 0px;
   font-weight: 600;
-  color: #595857;
-  color: white;
+  color: #333;
   font-size: 1.2em; }
 
 .footer a {
   color: #d9d9de;
+  color: #222;
   text-decoration: none; }
   .footer a:hover {
     text-decoration: none !important;
-    color: #faba04; }
+    color: #0a8ce5; }
 
 .footer p {
   margin: .3em .2em;
@@ -211,7 +212,7 @@ header {
 .footer-column {
   width: 49%;
   margin-top: 0px;
-  color: #ddd;
+  color: #333;
   height: 11em;
   display: inline-block;
   margin: auto;
@@ -260,7 +261,6 @@ header {
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 600;
   border-bottom: 1px solid #aaa;
-  color: #ddd;
   font-size: 1.2em; }
 
 .footer-column p {
@@ -286,11 +286,11 @@ header {
   text-decoration: underline; }
 
 #copyright {
-  color: #ddd;
+  color: #333;
   font-size: .9em;
   display: block;
   width: 100%;
-  background-color: #2e3133;
+  background-color: #dededd;
   border-top: 1px solid #fff;
   padding: 5px 0px;
   margin-top: 0px; }
@@ -298,7 +298,7 @@ header {
     text-align: center;
     margin: .2em 1em; }
   #copyright a {
-    color: #ddd;
+    color: #333;
     text-decoration: none; }
     #copyright a:hover {
       text-decoration: underline; }
@@ -974,13 +974,13 @@ iframe {
   max-width: 800px; }
 
 .btn-main {
-  background-color: #ccc;
+  background-color: #0a8ce5;
   border: 1px solid #ccc;
   padding: 1em 2em;
   display: block;
   margin: auto;
   border-radius: 0px;
-  color: #333;
+  color: #eee;
   text-transform: uppercase;
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif; }
 
@@ -1467,11 +1467,13 @@ h6 {
   margin-top: 5em; }
 
 h2 .btn-main {
-  background-color: #ccc;
+  background-color: #0a8ce5;
   border-radius: 0px;
-  color: #333;
+  color: #eee;
   text-transform: uppercase;
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif; }
+  h2 .btn-main:hover {
+    color: #ddd; }
 
 a {
   text-decoration: none; }

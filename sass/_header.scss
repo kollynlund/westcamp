@@ -11,10 +11,11 @@ header {
 	display: inline-block;
     margin: 0;
     margin-right: 1.125em;
-    margin-left: .5em;
     font-size: 100%;
     white-space: nowrap;
     padding: 10px;
+    position: relative;
+    left: 50px;
     img {
     	height: 45px;
         padding: 2.5px;
@@ -23,6 +24,7 @@ header {
         width: 100%;
         text-align: center;
         margin-left: 0px;
+        position: static;
     }    
     // @media (max-width: 935px){
     //     display: block;
